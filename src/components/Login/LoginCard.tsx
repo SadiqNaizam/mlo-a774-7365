@@ -11,7 +11,7 @@ interface LoginCardProps {
 
 const LoginCard: React.FC<LoginCardProps> = ({ className }) => {
   return (
-    <Card className={cn("w-[300px] bg-card text-card-foreground border-0 shadow-lg", className)}>
+    <Card className={cn("w-[300px] bg-card text-card-foreground border shadow-lg", className)}>
       <CardHeader className="pt-10 pb-4">
         <CardTitle className="text-center text-2xl font-bold">
           Welcome
